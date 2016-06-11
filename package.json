@@ -1,0 +1,41 @@
+{
+  "name": "observable-it",
+  "version": "0.1.0",
+  "description": "Implementation of Observable pattern for browser",
+  "main": "observable.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tcorral/observable-it.git"
+  },
+  "keywords": [
+    "observable",
+    "browser",
+    "event"
+  ],
+  "author": "amischol@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tcorral/observable-it/issues"
+  },
+  "homepage": "https://github.com/tcorral/observable-it#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "qunitjs": "2.0.0-rc1",
+    "grunt": "^1.0.1",
+    "grunt-cli": "^1.2.0",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-contrib-qunit": "^1.2.0"
+  },
+  "jspm": {
+    "dependencies": {},
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.8.24",
+      "babel-runtime": "npm:babel-runtime@^5.8.24",
+      "core-js": "npm:core-js@^1.1.4"
+    }
+  }
+}
