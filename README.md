@@ -1,4 +1,8 @@
 # observable-it
+
+[![NPM Version](http://img.shields.io/npm/v/observable-it.svg?style=flat)](https://npmjs.org/package/observable-it)
+[![Build Status](http://img.shields.io/travis/tcorral/observable-it.svg?style=flat)](https://travis-ci.org/tcorral/observable-it)
+
 observable-it is a library to implement Observable Design Pattern in Browser
 that only relays on top of the Event Browser API without implementing anything new
 and most important without loops.
